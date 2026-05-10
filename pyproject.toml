@@ -1,0 +1,12 @@
+[project]
+name = "la-colmena-5-0"
+version = "0.1.0"
+description = "Consultoria Inmobiliaria Bajakey"
+authors = [{name = "Francisco Robledo"}]
+dependencies = [
+    "crewai",
+    "langchain-groq",
+]
+
+[tool.crewai]
+type = "crew"
